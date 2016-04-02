@@ -27,7 +27,7 @@
     <Button id="id_mostrar" fx:id="idMostrar" layoutX="238.0" layoutY="179.0" mnemonicParsing="false" onAction="#acctionMostrar" text="Mostrar" />
     <TextField id="id_datos" fx:id="idDatos" layoutX="50.0" layoutY="262.0" prefHeight="47.0" prefWidth="504.0" />
     <Label layoutX="50.0" layoutY="224.0" text="Datos" />
-    <Label layoutX="407.0" layoutY="52.0" prefHeight="47.0" prefWidth="121.0" text="Mr Label" />
+    <Label layoutX="407.0" layoutY="44.0" prefHeight="47.0" prefWidth="121.0" text="Mr Label" />
   </children>
   <stylesheets>
     <URL value="@estilos.css" />
