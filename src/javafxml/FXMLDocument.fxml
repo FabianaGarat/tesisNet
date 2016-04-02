@@ -7,7 +7,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="javafxml.FXMLDocumentController">
+<AnchorPane id="AnchorPane" blendMode="SRC_OVER" depthTest="ENABLE" mouseTransparent="false" prefHeight="400.0" prefWidth="600.0" styleClass="theme" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="javafxml.FXMLDocumentController">
   <children>
     <TextField id="id_nombre" fx:id="idNombre" layoutX="94.0" layoutY="34.0" prefWidth="200.0" />
     <Label id="id_nombre" layoutX="37.0" layoutY="37.0" text="Nombre" />
@@ -24,7 +24,7 @@
     </ChoiceBox>
     <Label layoutX="172.0" layoutY="132.0" text="Año Nacimiento" />
     <Button id="id_mostrar" fx:id="idMostrar" layoutX="238.0" layoutY="179.0" mnemonicParsing="false" onAction="#acctionMostrar" text="Mostrar" />
-    <TextField fx:id="id_datos" layoutX="50.0" layoutY="262.0" prefHeight="47.0" prefWidth="504.0" />
+    <TextField id="id_datos" fx:id="idDatos" layoutX="50.0" layoutY="262.0" prefHeight="47.0" prefWidth="504.0" />
     <Label layoutX="50.0" layoutY="224.0" text="Datos" />
   </children>
 </AnchorPane>

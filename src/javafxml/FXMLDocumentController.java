@@ -19,7 +19,7 @@ import javafx.scene.control.TextField;
  */
 public class FXMLDocumentController implements Initializable {
     
-    @FXML private TextField is_nombre, id_apellido, id_datos;
+    @FXML private TextField idNombre, idApellido, idDatos;
     
     @FXML
     private Label label;
@@ -36,7 +36,7 @@ public class FXMLDocumentController implements Initializable {
     }
     @FXML
      private void acctionMostrar(ActionEvent event) {
-        id_datos.setText("HOLA");
+        idDatos.setText("Nombre "+idNombre.getText());
     }
     
 }
