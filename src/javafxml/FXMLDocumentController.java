@@ -11,12 +11,15 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
 
 /**
  *
  * @author Fabiana
  */
 public class FXMLDocumentController implements Initializable {
+    
+    @FXML private TextField is_nombre, id_apellido, id_datos;
     
     @FXML
     private Label label;
@@ -30,6 +33,10 @@ public class FXMLDocumentController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
-    }    
+    }
+    @FXML
+     private void acctionMostrar(ActionEvent event) {
+        id_datos.setText("HOLA");
+    }
     
 }
