@@ -29,6 +29,6 @@
     <Label layoutX="50.0" layoutY="224.0" text="Datos" />
   </children>
   <stylesheets>
-    <URL value="@IssueTrackingLite.css" />
+    <URL value="@estilos.css" />
   </stylesheets>
 </AnchorPane>
