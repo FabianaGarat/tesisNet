@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import java.lang.*?>
+<?import java.net.*?>
 <?import java.util.*?>
 <?import javafx.collections.*?>
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" blendMode="SRC_OVER" depthTest="ENABLE" mouseTransparent="false" prefHeight="400.0" prefWidth="600.0" styleClass="theme" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="javafxml.FXMLDocumentController">
+<AnchorPane id="AnchorPane" blendMode="SRC_ATOP" depthTest="ENABLE" mouseTransparent="false" prefHeight="400.0" prefWidth="600.0" styleClass="theme" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="javafxml.FXMLDocumentController">
   <children>
     <TextField id="id_nombre" fx:id="idNombre" layoutX="94.0" layoutY="34.0" prefWidth="200.0" />
     <Label id="id_nombre" layoutX="37.0" layoutY="37.0" text="Nombre" />
@@ -27,4 +28,7 @@
     <TextField id="id_datos" fx:id="idDatos" layoutX="50.0" layoutY="262.0" prefHeight="47.0" prefWidth="504.0" />
     <Label layoutX="50.0" layoutY="224.0" text="Datos" />
   </children>
+  <stylesheets>
+    <URL value="@IssueTrackingLite.css" />
+  </stylesheets>
 </AnchorPane>
